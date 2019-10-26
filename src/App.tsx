@@ -29,7 +29,7 @@ export default class App extends Component<{}, State> {
       <section className="container">
         {isLoading ? (
           <div className="loader">
-            <span className="loader__text">"Loading..."</span>
+            <span className="loader__text">Loading...</span>
           </div>
         ) : (
             <div className="movies">
