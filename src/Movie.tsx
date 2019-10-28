@@ -20,7 +20,7 @@ export default function Movie({ id, year, title, summary, poster, genres }: Movi
                 <ul className="movie__genres">
                     {genres.map((genre, index) => (<li key={index} className="genres__genre">{genre}</li>))}
                 </ul>
-                <p className="movie__summary">{summary.slice(0, 140)}...</p>
+                <p className="movie__summary">{summary}</p>
             </div>
         </div>
     )
